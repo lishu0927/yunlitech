@@ -1,0 +1,17 @@
+#owl-demo img{border:0 none;}
+#owl-demo{position:relative;padding-bottom:100px;margin:0 auto;}
+#owl-demo ul{margin:-10px -10px 0 0;overflow:hidden;zoom:1;}
+#owl-demo li{position:relative;float:left;margin:10px 10px 0 0;overflow:hidden;_display:inline;}
+#owl-demo h3{padding:0 15px;font-family:"Microsoft Yahei";font-size:18px;font-weight:500;}
+#owl-demo .li1 h3{padding:0 25px;font-size:28px;}
+#owl-demo li a img{ width: 85%;height: 480px}
+#owl-demo p{margin-top:4px;padding:0 25px 5px;}
+#owl-demo a{color:#fff;text-decoration:none;text-align: center}
+/* 左右箭头 */
+.owl-buttons div{position:absolute;top:30%;width:52px;height:81px;text-indent:-9999px;background-image:url(../images/arrow.png);transition:background-position 0.2s ease-out 0s;}
+.owl-prev{left:-60px;background-position:0 0;}
+.owl-next{right:-60px;background-position:right 0;}
+.owl-prev:hover{background-position:-53px 0;}
+.owl-next:hover{background-position:-122px 0;}
+/*.owl-theme .owl-controls .owl-page span {background: none;}*/
+.owl-theme .owl-controls .owl-buttons div {background-color: #fff;}
